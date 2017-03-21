@@ -1,0 +1,56 @@
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logomarca {
+	width: 200px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: fantasy;
+}
+
+h2 {
+	font-family: fantasy;
+}
+
+a:link {
+	color: YellowGreen;
+}
+a:hover {
+	font-weight: bold;
+}
+a:active {
+	color: SpringGreen;
+}
+a:visited {
+	color: GoldenRod;
+}
+
+a[href^="http"]:before{
+	content: " ";
+	display: inline-block;
+  	width: 20px;
+  	height: 17px;
+  	background: url(../img/globo.png) no-repeat;
+}
+
+.notas {
+	color: Silver;
+}
+
+.numero-passos {
+	font-size: 20px;
+	color: Purple;
+	background-color: Violet;
+	padding-left: 10px;
+	padding-right: 10px;
+}
